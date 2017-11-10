@@ -1,0 +1,75 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "ContactSupport",
+        "samples": [
+          "contact customer support",
+          "contact turo",
+          "call turo support",
+          "email turo",
+          "report damage",
+          "contact support",
+          "how do I contact support",
+          "tell me how to contact support",
+          "get me help",
+          "tell me where to go to contact support",
+          "tell me where to go to get help",
+          "where should I go to get help"
+        ],
+        "slots": []
+      },
+      {
+        "name": "GetNewFactIntent",
+        "samples": [
+          "a fact",
+          "a turo fact",
+          "tell me a fact",
+          "tell me a turo fact",
+          "give me a fact",
+          "give me a turo fact",
+          "tell me trivia",
+          "tell me a turo trivia",
+          "give me trivia",
+          "give me a turo trivia",
+          "give me some information",
+          "give me some turo information",
+          "tell me something",
+          "give me something",
+          "tell me something interesting",
+          "i'd like to hear a fact",
+          "i'd like to hear something interesting",
+          "please give me a fact"
+        ],
+        "slots": []
+      },
+      {
+        "name": "InstantBook",
+        "samples": [
+          "book instant",
+          "how does instant book work",
+          "how does the book instantly setting work",
+          "instant book",
+          "book instantly",
+          "how do I turn on instant book",
+          "how do I set up instant book",
+          "how do I set my car to be instantly bookable"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "turo"
+  }
+}
